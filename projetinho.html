@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device.width , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Login </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    
+</head>
+<body>
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-welcome">welcome back!</h2>
+                <p class="description description-primary"> Too keep connected with us </p>
+                <p class="description description-primary"> please login with your personal info</p>
+                <button class="btn btn-primary">sign in </button>
+            </div>
+        <div class="second-column">
+                <h2  class="title title-second"> create account</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <li class="item-social-media">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="item-social-media">
+                            <a herf="#"><i class="fab fa-google-plus"></i></a>
+                        </li>
+                    <li class=" item-social-media">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                </ul>
+                <p class="description description-second">or use your email for registration:</p>
+                <form class="form password-primary">
+                    <label class="label-input input-login" for="">
+                        <i class="fa fa-user icon-modify" aria-hidden="true"></i>
+                        <input class="input-login" type="text" placeholder="Name"/>
+                    </label>
+                    
+                    <label class="label-input input-login" for="">
+                        <i class="fa fa-envelope icon-modify" aria-hidden="true"></i>
+                        <input class="input-login" type="email"placeholder="Email" id="email" />
+                    </label>
+                    
+                    <label class="label-input input-login" for="">
+                        <i class="fa fa-lock icon-modify" aria-hidden="true"></i>
+                        <input class="input-login" type="password" placeholder="Password" id="password"/>
+                    </label>
+                   </form>
+                    <button onclick="logar()" class="btn btn-second">sign up</button>
+                    
+                    <script src="index.js"></script>
+
+           </div>
+        </div>
+    </div>
+     
+        
+</body>
+</html>
